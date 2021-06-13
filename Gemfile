@@ -6,6 +6,7 @@ ruby '2.7.1'
 
 gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
 gem 'puma', '~> 5.0'
+gem 'pg', '~> 1.2', '>= 1.2.3'
 gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 5.0'
 gem 'turbolinks', '~> 5'
@@ -24,10 +25,6 @@ group :development do
   # gem 'rack-mini-profiler', '~> 2.0'
   gem 'listen', '~> 3.3'
   gem 'spring'
-end
-
-group :production do
-  gem 'pg', '~> 1.2', '>= 1.2.3'
 end
 
 group :test do
